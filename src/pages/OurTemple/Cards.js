@@ -1,7 +1,7 @@
 import "../../app/globals.css";
 // import Board from "./Board";
 import Past from "./Past"
-const Box = () => {
+const Cards = () => {
     return (
         <div>
             <div className="container mx-auto">
@@ -13,11 +13,8 @@ const Box = () => {
                 </div>
             </div>
             <div className="container mx-auto ">
-                
-
-
-                <div className="flex gap-5">
-                    <div className=" border border-red-600 rounded-xl w-1/3 p-4">
+                <div class="flex gap-5">
+                    <div class=" border border-red-600 rounded-xl w-1/3 p-4">
 
                         <h1 className="text-4xl  font-semibold mt-10 ">Article of Incorporation</h1>
 
@@ -41,7 +38,7 @@ const Box = () => {
                 </div>
 
 
-            </div>
+            </div >
             <div className="container mx-auto text-center">
                 <p className="text-xl font-sans  mt-16">The functioning of the Temple shall be in accordance with the listed Articles of Incorporation and By-laws. The Board of Trustees set the vision and create an endowment of a substantial amount to support the mission of the temple. Select the Board of Trustees or the Current Executive Committee links to see current list of members</p>
                 <p className="text-xl font-sans  mt-8">The founding executive committee members were elected to exected to executive office on January 16, 2000. The executive committee runs day to day operations of temple and strives to achieve the vision set by Board of Trustees for the temple. Follow the link below to see current and past executive committee members along with editors of Pranava and web masters for Temple Website.</p>
@@ -75,7 +72,7 @@ const Box = () => {
             {/* <Board /> */}
             <Past />
 
-        </div>
+        </div >
     )
 }
-export default Box;
+export default ard;

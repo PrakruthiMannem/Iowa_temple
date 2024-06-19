@@ -1,5 +1,5 @@
 import "../../app/globals.css";
-import Box from "./Box";
+import Cards from "./Cards";
 const Eastern = () => {
     return (
         <div>
@@ -13,7 +13,7 @@ const Eastern = () => {
                     </p>
                 </div>
             </div>
-            <Box />
+            <Cards />
         </div>
     )
 }
